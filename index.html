@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<head>
+	<meta charset="utf-8" />
+
+	<title>Calculator</title>
+
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="logo.jpg" />
+
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+
+	<script src="functions.js" async></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class = 'container'>
+	<h1>CALCULATOR</h1>
+	<input onclick = "clearInputX()" id = 'x' value = 0></input>
+	<br></br>
+	<input onclick = "clearInputY()" id = 'y' value = 0></input>
+	<br></br>
+	<button onclick = "multiplication()" >*</button>
+	<button onclick = "division()" >/</button>
+	<button onclick = "addition()" >+</button>
+	<button onclick = "subtraction()" >-</button>
+	<button class = 'C' onclick = "clearAll()" >C</button>
+	<br></br>
+	<span id = 'result'>Result = <span>
+</div>
+
+</body>
+</html>
