@@ -3,9 +3,6 @@ function multiplication(){
   var a = document.getElementById('x').value;
   var b = document.getElementById('y').value;
 
-  a = parseFloat(a);
-  b = parseFloat(b);
-
   if(isNaN(a) || isNaN(b) || a == ('') || b == ('')){
     document.getElementById('result').innerHTML ='Wpisz liczbę';
   }
@@ -17,9 +14,6 @@ function multiplication(){
 function division(){
   var a = document.getElementById('x').value;
   var b = document.getElementById('y').value;
-
-  a = parseFloat(a);
-  b = parseFloat(b);
 
   if(isNaN(a) || isNaN(b) || a == ('') || b == ('')){
     document.getElementById('result').innerHTML ='Wpisz liczbę';
