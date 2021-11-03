@@ -58,6 +58,7 @@ button:hover{
 }
 
 span{
+  font-family: 'Zen Kurenaido', sans-serif;
   font-size: 60px;
-  color: white;
+  color: red;
 }
