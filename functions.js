@@ -35,11 +35,14 @@ function addition(){
   a = parseFloat(a);
   b = parseFloat(b);
 
-  var suma = a+b;
+  let add = a+b;
+
+  var suma = Math.round(add * 10) / 10;
 
   if(isNaN(a) || isNaN(b)){
     document.getElementById('result').innerHTML ='Wpisz liczbę';
   }
+
   else{
     document.getElementById('result').innerHTML ='Result = '+ suma;
   }
